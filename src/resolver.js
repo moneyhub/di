@@ -5,6 +5,10 @@ module.exports = function createResolver({
   parent,
   instances,
   factories,
+
+  // TODO
+  // rootModule,
+  // moduleContext,
   previousDependencyPath = [],
   previouslySearchedContainers = [],
 }) {
